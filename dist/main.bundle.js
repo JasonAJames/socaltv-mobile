@@ -127,7 +127,7 @@ module.exports = ".top {\n    padding-top: 10%;\n}\n\n@media screen and (min-wid
 /***/ "./src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "  <div class=\"ui container\">\n    <p class=\"top\"></p>\n    <!-- Revive Adserver iFrame Tag - Generated with Revive Adserver v4.1.3 -->\n    <!-- <iframe id='a1db2c5d' name='a1db2c5d' src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/afr.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE' frameborder='0' scrolling='no' width='768' height='90'><a href='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/ck.php?n=a99a811b&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='https://appandwebdevelopers.com/website-design-app-development/adserver/www/delivery/avw.php?zoneid=1&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a99a811b' border='0' alt='' class='img-responsive' /></a></iframe> -->\n\n   <router-outlet></router-outlet>\n    <!-- <app-hero-form></app-hero-form> -->\n  </div>\n"
+module.exports = "  <div class=\"ui container\">\n   <router-outlet></router-outlet>\n  </div>\n"
 
 /***/ }),
 
