@@ -5,7 +5,7 @@ import { SocaltelevisionComponent } from './tv/socaltelevision/socaltelevision.c
 
 export const router: Routes = [
       { path: 'socaltelevision', component: SocaltelevisionComponent },
-      { path: '', redirectTo: '/home', pathMatch: 'full'},
+      { path: '', redirectTo: '/socaltelevision', pathMatch: 'full'},
       { path: '**', component: SocaltelevisionComponent}
 ];
 
