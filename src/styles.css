@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+/* @import url('https://bootswatch.com/4/cyborg/bootstrap.min.css'); */
+@import url('https://bootswatch.com/4/spacelab/bootstrap.min.css');
+
+
+.HomeBG {
+    background-image: url('https://s3-us-west-2.amazonaws.com/socaltelevision/surfers_walking.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    vertical-align: top;
+}
